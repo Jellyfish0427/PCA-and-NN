@@ -1,8 +1,8 @@
 ## Introduction
 Do dimensionality reduction using principal component analysis (PCA). Then utilize PCA to map the images in the data down to 2 dimensions.  
-Build a 2-layers neural network to identify 3 differents types of fruit images and classify them into 3 classes. Including feedforward network and backpropergation algorithm to update the weights through loss functions. 
+Build a 2-layers and a 3-layers neural network to identify 3 differents types of fruit images and classify them into 3 classes. Including feedforward network and backpropergation algorithm to update the weights through loss functions. 
 
-  <img width="517" alt="截圖 2023-05-04 上午12 48 57" src="https://user-images.githubusercontent.com/128220508/235984748-920cd6a7-5c84-4e08-bacb-cbe8925e40e6.png">  
+<img width="517" alt="截圖 2023-05-04 上午12 48 57" src="https://user-images.githubusercontent.com/128220508/235984748-920cd6a7-5c84-4e08-bacb-cbe8925e40e6.png">  
 
 
 ## Data
