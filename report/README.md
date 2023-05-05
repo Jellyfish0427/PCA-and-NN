@@ -1,15 +1,18 @@
-## Model architecture
+# Model architecture
+## Networks
 ### Two layers network
 <img width="442" alt="截圖 2023-05-04 上午1 00 55" src="https://user-images.githubusercontent.com/128220508/235987538-39ec131a-2398-4d16-85f7-ba7a281bd9a6.png">  
-#### testing accuracy : 0.896 
+
+#### Testing accuracy : 0.896 
 1. Epoch: 100  
 2. Batch sizw: 200  
 3. Learning rate: 0.01   
 4. Optimizer: SGD
 
 ### Three layers network
-<img width="435" alt="截圖 2023-05-04 上午1 04 48" src="https://user-images.githubusercontent.com/128220508/235988449-07149991-dee9-4a56-a084-47d7c1d8a8f0.png">  
-#### testing accuracy : 0.908
+<img width="439" alt="截圖 2023-05-05 下午4 42 01" src="https://user-images.githubusercontent.com/128220508/236421185-6c765a21-287e-44e9-9714-61838510aede.png">
+
+#### Testing accuracy : 0.908
 1. Epoch: 100  
 2. Batch sizw: 200  
 3. Learning rate: 0.005  
@@ -19,8 +22,11 @@
 Mini-batch -> Gragient -> Update parameters  
 1. Randomly select a mini-batch of training data and labels.
 2. Calculate the gradients.
-3. Use the optimizer to update the parameters.
+3. Use the optimizer to update the parameters.  
 Keep repeating these steps to adjust the weights until the epochs is reached.
+
+## Layers
+
 
 ## PCA Method
 PCA is a commonly used technique for reducing the dimensionality of a dataset by transforming it into a lower-dimensional space while retaining the most important features or principal components.  
@@ -51,10 +57,7 @@ def print_pca(data,label):
     plt.ylabel('PCA-feature-2')
     plt.legend(classes, loc='upper right')
 ```
-### Training data PCA
-<img width="301" alt="image" src="https://user-images.githubusercontent.com/128220508/236402649-90d72222-18bd-4575-8f86-1feac44349e3.png">  
-### Testing data PCA
-<img width="301" alt="image" src="https://user-images.githubusercontent.com/128220508/236402724-772f3f16-a479-4d3a-9706-81dc21a50d6a.png">. 
+<img width="301" alt="image" src="https://user-images.githubusercontent.com/128220508/236402649-90d72222-18bd-4575-8f86-1feac44349e3.png"><img width="301" alt="image" src="https://user-images.githubusercontent.com/128220508/236402724-772f3f16-a479-4d3a-9706-81dc21a50d6a.png">. 
 
 
 
