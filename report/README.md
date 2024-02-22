@@ -1,7 +1,17 @@
 # Model architecture
 ## 1. Networks
 ### ．Two layers network
-<img width="442" alt="截圖 2023-05-04 上午1 00 55" src="https://user-images.githubusercontent.com/128220508/235987538-39ec131a-2398-4d16-85f7-ba7a281bd9a6.png">  
+
+| Layers            | Details   |
+|-------------------|-----------|
+| Affine 1          | 100 nodes |
+| ReLU 1            |           |
+| Affine 2          | 50 nodes  |
+| ReLU 2            |           |
+| Affine            |           |
+| Softmax           |           |
+| Cross entropy error |           |
+
 
 #### Testing accuracy : 0.896 
 1. Epoch: 100  
@@ -10,7 +20,18 @@
 4. Optimizer: SGD
 
 ### ．Three layers network
-<img width="439" alt="截圖 2023-05-05 下午4 42 01" src="https://user-images.githubusercontent.com/128220508/236421185-6c765a21-287e-44e9-9714-61838510aede.png">
+
+| Layers            | Details   |
+|-------------------|-----------|
+| Affine 1          | 50 nodes  |
+| ReLU 1            |           |
+| Affine 2          | 50 nodes  |
+| ReLU 2            |           |
+| Affine 3          | 50 nodes  |
+| ReLU 3            |           |
+| Affine            |           |
+| Softmax           |           |
+| Cross entropy error |           |
 
 #### Testing accuracy : 0.908
 1. Epoch: 100  
